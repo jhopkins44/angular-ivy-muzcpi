@@ -1,0 +1,10 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Bool Status: {{ boolStatus }} <br />
+  Bool Status from Tap: {{ boolStatusTap }} <br />
+  Bool Status from Subscription: {{ boolStatusData }} <br />
+  Next Calls: {{ nextCalls }}<br />
+  <button (click)="sendNewValue()">New Value</button>&nbsp;
+  <button (click)="sendError()">Error</button>&nbsp;
+  <button (click)="sendComplete()">Complete</button>
+</p>
